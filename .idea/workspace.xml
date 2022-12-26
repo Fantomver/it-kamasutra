@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c76d83a9-cea1-469b-bc11-72d1215183bf" name="Changes" comment="Add idea to ignore">
+    <list default="true" id="c76d83a9-cea1-469b-bc11-72d1215183bf" name="Changes" comment="Add full project">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672066324437</updated>
       <workItem from="1672066325798" duration="5789000" />
-      <workItem from="1672083250801" duration="4119000" />
+      <workItem from="1672083250801" duration="4515000" />
     </task>
     <task id="LOCAL-00001" summary="Add idea to ignore">
       <created>1672082506797</created>
@@ -63,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672082506797</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add full project">
+      <created>1672089432259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672089432259</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add idea to ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add idea to ignore" />
+    <MESSAGE value="Add full project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add full project" />
   </component>
 </project>
