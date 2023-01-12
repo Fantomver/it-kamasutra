@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c76d83a9-cea1-469b-bc11-72d1215183bf" name="Changes" comment="Add Creating and typing components. Using the Props Object">
+    <list default="true" id="c76d83a9-cea1-469b-bc11-72d1215183bf" name="Changes" comment="add Using useState to store data. Map and filter array methods. Dropping callbacks.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +41,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/it-kamasutra/todolistTs01",
+    "last_opened_file_path": "C:/it-kamasutra/2-todolist",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "settings.editor.selected.configurable": "vcs.Git",
-    "ts.external.directory.path": "C:\\it-kamasutra\\todolistTs01\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\it-kamasutra\\todolistTs\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,7 +71,12 @@
       <workItem from="1672259944619" duration="104000" />
       <workItem from="1672677559187" duration="14620000" />
       <workItem from="1672765936529" duration="8000" />
-      <workItem from="1672765954088" duration="448000" />
+      <workItem from="1672765954088" duration="1790000" />
+      <workItem from="1673023685925" duration="691000" />
+      <workItem from="1673028973666" duration="54000" />
+      <workItem from="1673092403384" duration="1957000" />
+      <workItem from="1673279126530" duration="756000" />
+      <workItem from="1673519456304" duration="6511000" />
     </task>
     <task id="LOCAL-00001" summary="Add idea to ignore">
       <created>1672082506797</created>
@@ -106,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672766033503</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Creating and typing components. Using the Props Object">
+      <created>1672766472975</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672766472975</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +141,7 @@
     <MESSAGE value="Add full project" />
     <MESSAGE value="Add idea to ignore" />
     <MESSAGE value="Add Creating and typing components. Using the Props Object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Creating and typing components. Using the Props Object" />
+    <MESSAGE value="add Using useState to store data. Map and filter array methods. Dropping callbacks." />
+    <option name="LAST_COMMIT_MESSAGE" value="add Using useState to store data. Map and filter array methods. Dropping callbacks." />
   </component>
 </project>

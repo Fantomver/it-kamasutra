@@ -1,4 +1,5 @@
 import React from "react";
+import {FilterValuesType} from "./App";
 
 type TaskType = {
     id: number
@@ -9,9 +10,13 @@ type TaskType = {
 type PropsType = {
     title: string
     tasks: Array<TaskType>
+    removeTask: (taskId: number) => void
+    changeFilter: (value: FilterValuesType) => void
 }
 
-export const Todolist = (props: PropsType) => {
+export function Todolist(props: PropsType) {
+
+
     return (
         <div>
             <h3>{props.title}</h3>
@@ -20,15 +25,29 @@ export const Todolist = (props: PropsType) => {
                 <button>+</button>
             </div>
             <ul>
-                {}
-                <li><input type="checkbox" checked={props.tasks[0].isDone}/> <span>{props.tasks[0].title}</span></li>
-                <li><input type="checkbox" checked={props.tasks[1].isDone}/> <span>{props.tasks[1].title}</span></li>
-                <li><input type="checkbox" checked={props.tasks[2].isDone}/> <span>{props.tasks[2].title}</span></li>
+                {props.tasks.map((task) => {
+                    return (
+                        <li key={task.id}>
+                            <button onClick={() => {
+                                props.removeTask(task.id)
+                            }}>x
+                            </button>
+                            <input type="checkbox" checked={task.isDone}/>
+                            <span>{task.title}</span>
+                        </li>
+                    )
+                })}
             </ul>
             <div>
-                <button>All</button>
-                <button>Active</button>
-                <button>Completed</button>
+                <button onClick={() => {
+                    props.changeFilter('all')
+                }}>all</button>
+                <button onClick={() => {
+                    props.changeFilter('active')
+                }}>active</button>
+                <button onClick={() => {
+                    props.changeFilter('completed')
+                }}>completed</button>
             </div>
         </div>
     )
